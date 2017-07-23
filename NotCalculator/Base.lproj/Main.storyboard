@@ -14,9 +14,6 @@
         <array key="DS-DIGIB.TTF">
             <string>DS-Digital-Bold</string>
         </array>
-        <array key="Raleway-Regular.ttf">
-            <string>Raleway-Regular</string>
-        </array>
     </customFonts>
     <scenes>
         <!--View Controller-->
@@ -52,26 +49,26 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="288" height="82.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x2X-Oi-pAO">
-                                                        <rect key="frame" x="0.0" y="0.0" width="139.5" height="82.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="140" height="82.5"/>
                                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.4959332192" colorSpace="calibratedRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" relation="lessThanOrEqual" priority="752" constant="112" id="OK5-Ze-mEm"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="28"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="Oops!"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MWp-rd-eyM">
-                                                        <rect key="frame" x="147.5" y="0.0" width="66.5" height="82.5"/>
+                                                        <rect key="frame" x="148" y="0.0" width="66" height="82.5"/>
                                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.4959332192" colorSpace="calibratedRGB"/>
-                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="28"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="√"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sm4-MN-5Zg">
                                                         <rect key="frame" x="222" y="0.0" width="66" height="82.5"/>
                                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.4959332192" colorSpace="calibratedRGB"/>
-                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="28"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="÷"/>
                                                     </button>
@@ -89,28 +86,28 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kec-Q2-mFW">
                                                         <rect key="frame" x="0.0" y="0.0" width="66" height="82.5"/>
                                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.4959332191780822" colorSpace="calibratedRGB"/>
-                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="28"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="7"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iJq-ok-oY0">
                                                         <rect key="frame" x="74" y="0.0" width="66" height="82.5"/>
                                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.4959332191780822" colorSpace="calibratedRGB"/>
-                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="28"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="8"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QSi-2A-dH2">
                                                         <rect key="frame" x="148" y="0.0" width="66" height="82.5"/>
                                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.4959332191780822" colorSpace="calibratedRGB"/>
-                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="28"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="9"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9aq-Q3-Xsn">
                                                         <rect key="frame" x="222" y="0.0" width="66" height="82.5"/>
                                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.4959332192" colorSpace="calibratedRGB"/>
-                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="28"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="x"/>
                                                     </button>
@@ -130,28 +127,28 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E2I-bx-l9F">
                                                         <rect key="frame" x="0.0" y="0.0" width="66" height="82"/>
                                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.4959332191780822" colorSpace="calibratedRGB"/>
-                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="28"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="4"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Qz-DW-d5Y">
                                                         <rect key="frame" x="74" y="0.0" width="66" height="82"/>
                                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.4959332191780822" colorSpace="calibratedRGB"/>
-                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="28"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="5"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3WU-5p-jdx">
                                                         <rect key="frame" x="148" y="0.0" width="66" height="82"/>
                                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.4959332191780822" colorSpace="calibratedRGB"/>
-                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="28"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="6"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vf0-7L-hWM">
                                                         <rect key="frame" x="222" y="0.0" width="66" height="82"/>
                                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.4959332192" colorSpace="calibratedRGB"/>
-                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="28"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="-"/>
                                                     </button>
@@ -172,28 +169,28 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOV-4Q-dLY">
                                                         <rect key="frame" x="0.0" y="0.0" width="66" height="82.5"/>
                                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.4959332191780822" colorSpace="calibratedRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="1"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Imp-MB-gRP">
                                                         <rect key="frame" x="74" y="0.0" width="66" height="82.5"/>
                                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.4959332191780822" colorSpace="calibratedRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="2"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lff-lg-WnW">
                                                         <rect key="frame" x="148" y="0.0" width="66" height="82.5"/>
                                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.4959332191780822" colorSpace="calibratedRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="3"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sv-7Q-cj1">
                                                         <rect key="frame" x="222" y="0.0" width="66" height="82.5"/>
                                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.4959332191780822" colorSpace="calibratedRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="+"/>
                                                     </button>
@@ -211,23 +208,23 @@
                                                 <rect key="frame" x="0.0" y="361.5" width="288" height="82.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dal-ey-nsx">
-                                                        <rect key="frame" x="0.0" y="0.0" width="140" height="82.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="139.5" height="82.5"/>
                                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.4959332191780822" colorSpace="calibratedRGB"/>
-                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="28"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="0"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5E6-UG-RfQ">
-                                                        <rect key="frame" x="148" y="0.0" width="66" height="82.5"/>
+                                                        <rect key="frame" x="147.5" y="0.0" width="66.5" height="82.5"/>
                                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.4959332192" colorSpace="calibratedRGB"/>
-                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="28"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title=","/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNw-DU-NJY">
                                                         <rect key="frame" x="222" y="0.0" width="66" height="82.5"/>
                                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.4959332191780822" colorSpace="calibratedRGB"/>
-                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="28"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="="/>
                                                     </button>
