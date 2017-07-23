@@ -14,6 +14,8 @@
 		C49074781F23E3580031C321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49074761F23E3580031C321 /* LaunchScreen.storyboard */; };
 		C49074831F23E3580031C321 /* NotCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49074821F23E3580031C321 /* NotCalculatorTests.swift */; };
 		C490748E1F23E3580031C321 /* NotCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C490748D1F23E3580031C321 /* NotCalculatorUITests.swift */; };
+		C490749E1F23E5E50031C321 /* DS-DIGIB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = C490749C1F23E5C60031C321 /* DS-DIGIB.TTF */; };
+		C490749F1F23E5E80031C321 /* Aurora script.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C490749D1F23E5C60031C321 /* Aurora script.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,9 @@
 		C49074891F23E3580031C321 /* NotCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C490748D1F23E3580031C321 /* NotCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotCalculatorUITests.swift; sourceTree = "<group>"; };
 		C490748F1F23E3580031C321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C490749C1F23E5C60031C321 /* DS-DIGIB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = "DS-DIGIB.TTF"; path = "../../../Downloads/DS-DIGIB.TTF"; sourceTree = "<group>"; };
+		C490749D1F23E5C60031C321 /* Aurora script.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Aurora script.ttf"; path = "../../../Downloads/Aurora script.ttf"; sourceTree = "<group>"; };
+		C49074A01F23F5970031C321 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-Regular.ttf"; path = "../../../Downloads/raleway/Raleway-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +84,7 @@
 			children = (
 				C490746C1F23E3580031C321 /* NotCalculator */,
 				C49074811F23E3580031C321 /* NotCalculatorTests */,
+				C490749B1F23E57A0031C321 /* Fonts */,
 				C490748C1F23E3580031C321 /* NotCalculatorUITests */,
 				C490746B1F23E3580031C321 /* Products */,
 			);
@@ -123,6 +129,17 @@
 				C490748F1F23E3580031C321 /* Info.plist */,
 			);
 			path = NotCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		C490749B1F23E57A0031C321 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C49074A01F23F5970031C321 /* Raleway-Regular.ttf */,
+				C490749C1F23E5C60031C321 /* DS-DIGIB.TTF */,
+				C490749D1F23E5C60031C321 /* Aurora script.ttf */,
+			);
+			name = Fonts;
+			path = NotCalculator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +253,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C49074781F23E3580031C321 /* LaunchScreen.storyboard in Resources */,
+				C490749F1F23E5E80031C321 /* Aurora script.ttf in Resources */,
 				C49074751F23E3580031C321 /* Assets.xcassets in Resources */,
 				C49074731F23E3580031C321 /* Main.storyboard in Resources */,
+				C490749E1F23E5E50031C321 /* DS-DIGIB.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
