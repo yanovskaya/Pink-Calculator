@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     var numbersDictionary = [UIButton: Int]()
     var plusButtonIsPushed = false
     var resultButtonIsPushed = false
+    var minusButtonIsPushed = false
     
     //MARK: - IBOutlets
     @IBOutlet var resultLabel: UILabel!
@@ -49,45 +50,62 @@ class ViewController: UIViewController {
         numbersDictionary = [oneButton: 1, twoButton: 2]
         for (key, value) in numbersDictionary {
             if sender == key {
-                if plusButtonIsPushed == false {
+                if plusButtonIsPushed == true || minusButtonIsPushed == true {
+                    print("plusButtonIsPushed == true || minusButtonIsPushed == true")
+                    print(secondNumber)
+                    secondNumber *= 10
+                    self.character = value
+                    secondNumber += character
+                    print(secondNumber)
+                    print()
+                    resultLabel.text = String(secondNumber)
+                    print(secondNumber)
+                }
+                if plusButtonIsPushed == false && minusButtonIsPushed == false {
                     if resultButtonIsPushed == true {
                         firstNubmer = 0
                         resultButtonIsPushed = false
                     }
+                    
                     firstNubmer *= 10
                     self.character = value
                     firstNubmer += character
                     result = firstNubmer
                     resultLabel.text = String(result)
                 }
-                else {
-                    secondNumber *= 10
-                    self.character = value
-                    secondNumber += character
-                    resultLabel.text = String(secondNumber)
-                }
             }
         }
     }
     
-    @IBAction func pushPlusButton(_ sender: Any) {
+    @IBAction func plusButtonPushed(_ sender: Any) {
         if plusButtonIsPushed == true {
             firstNubmer += secondNumber
             result = firstNubmer
         }
+        if minusButtonIsPushed == true {
+            firstNubmer -= secondNumber
+            result = firstNubmer
+        }
         resultLabel.text = String(result)
         plusButtonIsPushed = true
+        minusButtonIsPushed = false
+        resultButtonIsPushed = false
         secondNumber = 0
     }
 
-    @IBAction func pushResultButton(_ sender: Any) {
+    @IBAction func resultButtonPushed(_ sender: Any) {
         if plusButtonIsPushed == true {
             firstNubmer += secondNumber
+            result = firstNubmer
+        }
+        if minusButtonIsPushed == true {
+            firstNubmer -= secondNumber
             result = firstNubmer
         }
         resultLabel.text = String(result)
         secondNumber = 0
         plusButtonIsPushed = false
+        minusButtonIsPushed = false
         resultButtonIsPushed = true
     }
     
@@ -96,8 +114,26 @@ class ViewController: UIViewController {
         firstNubmer = 0
         secondNumber = 0
         plusButtonIsPushed = false
+        minusButtonIsPushed = false
         resultButtonIsPushed = false
         resultLabel.text = "0"
+    }
+    
+    @IBAction func minusButtonPushed(_ sender: Any) {
+        if plusButtonIsPushed == true {
+            firstNubmer += secondNumber
+            result = firstNubmer
+        }
+        if minusButtonIsPushed == true {
+            firstNubmer -= secondNumber
+            result = firstNubmer
+        }
+        resultLabel.text = String(result)
+        plusButtonIsPushed = false
+        resultButtonIsPushed = false
+        minusButtonIsPushed = true
+        secondNumber = 0
+        print(secondNumber)
     }
 }
 

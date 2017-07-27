@@ -173,6 +173,9 @@
                                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="-"/>
+                                                        <connections>
+                                                            <action selector="minusButtonPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vg5-Rz-rc0"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -221,7 +224,7 @@
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="+"/>
                                                         <connections>
-                                                            <action selector="pushPlusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ANv-2s-s3m"/>
+                                                            <action selector="plusButtonPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ChS-tr-bxp"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -258,7 +261,7 @@
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="="/>
                                                         <connections>
-                                                            <action selector="pushResultButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q3m-Lf-HWX"/>
+                                                            <action selector="resultButtonPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B2F-7b-2yo"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
