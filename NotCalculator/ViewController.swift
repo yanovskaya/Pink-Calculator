@@ -110,13 +110,16 @@ class ViewController: UIViewController {
     }
     
     @IBAction func oopsButtonPushed(_ sender: Any) {
-        result = 0
-        firstNubmer = 0
+        if minusButtonIsPushed == false && plusButtonIsPushed == false {
+            result = 0
+            firstNubmer = 0
+            plusButtonIsPushed = false
+            minusButtonIsPushed = false
+            resultButtonIsPushed = false
+        }
         secondNumber = 0
-        plusButtonIsPushed = false
-        minusButtonIsPushed = false
-        resultButtonIsPushed = false
         resultLabel.text = "0"
+        resultButtonIsPushed = false
     }
     
     @IBAction func minusButtonPushed(_ sender: Any) {
