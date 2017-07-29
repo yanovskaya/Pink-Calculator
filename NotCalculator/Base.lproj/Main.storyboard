@@ -111,6 +111,9 @@
                                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="7"/>
+                                                        <connections>
+                                                            <action selector="characterButtonPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PPY-3e-8fz"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iJq-ok-oY0">
                                                         <rect key="frame" x="74" y="0.0" width="66" height="82.5"/>
@@ -118,6 +121,9 @@
                                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="8"/>
+                                                        <connections>
+                                                            <action selector="characterButtonPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tpm-Nu-s4c"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QSi-2A-dH2">
                                                         <rect key="frame" x="148" y="0.0" width="66" height="82.5"/>
@@ -125,6 +131,9 @@
                                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="9"/>
+                                                        <connections>
+                                                            <action selector="characterButtonPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oax-hj-25G"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9aq-Q3-Xsn">
                                                         <rect key="frame" x="222" y="0.0" width="66" height="82.5"/>
@@ -132,6 +141,9 @@
                                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="x"/>
+                                                        <connections>
+                                                            <action selector="multiplierButtonIsPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w0S-Nh-Mh1"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -152,6 +164,9 @@
                                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="4"/>
+                                                        <connections>
+                                                            <action selector="characterButtonPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G62-nI-z8t"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Qz-DW-d5Y">
                                                         <rect key="frame" x="74" y="0.0" width="66" height="82"/>
@@ -159,6 +174,9 @@
                                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="5"/>
+                                                        <connections>
+                                                            <action selector="characterButtonPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wg0-hG-cbS"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3WU-5p-jdx">
                                                         <rect key="frame" x="148" y="0.0" width="66" height="82"/>
@@ -166,6 +184,9 @@
                                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="6"/>
+                                                        <connections>
+                                                            <action selector="characterButtonPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xa9-5f-5SG"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vf0-7L-hWM">
                                                         <rect key="frame" x="222" y="0.0" width="66" height="82"/>
@@ -197,7 +218,7 @@
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="1"/>
                                                         <connections>
-                                                            <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PHf-5E-MrV"/>
+                                                            <action selector="characterButtonPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5l0-s5-qRj"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Imp-MB-gRP">
@@ -207,7 +228,7 @@
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="2"/>
                                                         <connections>
-                                                            <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a3s-Qi-a3A"/>
+                                                            <action selector="characterButtonPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L8b-Nj-Vom"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lff-lg-WnW">
@@ -216,6 +237,9 @@
                                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="3"/>
+                                                        <connections>
+                                                            <action selector="characterButtonPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vtR-94-jso"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sv-7Q-cj1">
                                                         <rect key="frame" x="222" y="0.0" width="66" height="82.5"/>
@@ -246,6 +270,9 @@
                                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="0"/>
+                                                        <connections>
+                                                            <action selector="characterButtonPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bpo-Yx-5oS"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5E6-UG-RfQ">
                                                         <rect key="frame" x="147.5" y="0.0" width="66.5" height="82.5"/>
@@ -253,6 +280,9 @@
                                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title=","/>
+                                                        <connections>
+                                                            <action selector="commaButtonPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hpL-uS-nbm"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNw-DU-NJY">
                                                         <rect key="frame" x="222" y="0.0" width="66" height="82.5"/>
