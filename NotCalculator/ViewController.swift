@@ -90,17 +90,21 @@ class ViewController: UIViewController {
             print("calculate for minus")
         }
         if multiplierButtonIsPushed == true {
+            if someCharacterIsPushed == false {
+                secondNumber = 1
+            }
             print("secondNum ", secondNumber)
             print("first num ", firstNumber)
             firstNumber *= secondNumber
             result = firstNumber
             print("first num ", firstNumber)
         }
-        if result.truncatingRemainder(dividingBy: 1) == 0 {
+        if result.truncatingRemainder(dividingBy: 1) == 0 || result.truncatingRemainder(dividingBy: 1) <= 4.17232513427734e-07{
             print(result.truncatingRemainder(dividingBy: 1))
             print("целое")
             resultLabel.text = String(Int(result))
         }
+            
         else {
             print(result.truncatingRemainder(dividingBy: 1))
             print("first num ", firstNumber)
@@ -220,8 +224,7 @@ class ViewController: UIViewController {
             result = 0
             firstNumber = 0
             commaButtonIsPushed = false
-            someCharacterIsPushed = false
-            resultButtonIsPushed = false
+            makeAllButtonNotPushed()
             print("all cancel")
         }
         secondNumber = 0
